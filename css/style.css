@@ -1,0 +1,90 @@
+/* подключаем шрифт глобально */
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500,500italic,700&display=swap&subset=cyrillic-ext");
+
+/* подключение шрифта локально */
+@font-face {
+	font-family: "BerndalLTStd";
+	src: url("../fonts/BerndalLTStd-Regular.woff2") format("woff2"),
+		url("../fonts/BerndalLTStd-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "BerndalLTStd";
+	src: url("../fonts/BerndalLTStd-Bold.woff2") format("woff2"), url("../fonts/BerndalLTStd-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+html {
+	font-size: 16px;
+}
+body {
+	color: #000;
+}
+/* ---------------header------------------- */
+.header {
+	font-family: "Roboto";
+	font-weight: 400;
+}
+.header-title {
+	text-align: center;
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 100%;
+	color: #558058;
+	text-shadow: 4px 14px 15px rgb(67, 116, 104);
+	text-transform: uppercase;
+}
+.header-subtitle {
+	text-align: left;
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 150%;
+	color: #556080;
+}
+.header-menu {
+}
+.header-menu-title {
+	text-align: center;
+	font-weight: 700;
+	font-size: 35px;
+	line-height: 150%;
+	color: #7e4242;
+}
+.header-menu-list {
+	text-align: right;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 150%;
+	color: #7e424c;
+	text-decoration: underline;
+}
+.header-menu-link {
+}
+/* ----------------main---------------------- */
+.meaning {
+	font-family: "BerndalLTStd", sans-serif;
+}
+.meaning-title {
+	text-align: center;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 50px;
+	color: #558058;
+	text-shadow: 5px 10px 15px rgba(146, 93, 139, 0.767);
+	text-decoration: underline;
+}
+.meaning-text {
+	text-align: left;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 150%;
+	color: #292616;
+	word-spacing: 5px;
+}
+.meaning-text span {
+	text-decoration: underline;
+}
